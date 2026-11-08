@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curriculum vitae di Alessio Pecilli, AI Software Engineer.">
+  <title>Alessio Pecilli | CV</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; background: #f3f5f8; color: #172033; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1080px; margin: 0 auto; padding: 48px 24px 64px; }
+    header { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 28px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -.04em; margin: 0 0 8px; }
+    p { margin: 0; color: #526079; }
+    a.button { display: inline-block; padding: 12px 18px; border-radius: 10px; background: #173b75; color: white; text-decoration: none; font-weight: 600; white-space: nowrap; }
+    a.button:hover, a.button:focus-visible { background: #24539d; }
+    .viewer { background: white; padding: 12px; border: 1px solid #dae0e9; border-radius: 14px; box-shadow: 0 14px 40px #17203312; }
+    iframe { display: block; width: 100%; height: min(84vh, 1060px); min-height: 600px; border: 0; }
+    .fallback { margin-top: 16px; font-size: .95rem; }
+    .fallback a { color: #173b75; }
+    @media (max-width: 680px) { main { padding: 28px 16px 48px; } header { display: block; } a.button { margin-top: 20px; } iframe { min-height: 480px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Alessio Pecilli</h1>
+        <p>AI Software Engineer</p>
+      </div>
+      <a class="button" href="CVPecilliAlessio.pdf" download>Scarica il CV in PDF</a>
+    </header>
+    <div class="viewer">
+      <iframe src="CVPecilliAlessio.pdf" title="Curriculum vitae di Alessio Pecilli"></iframe>
+    </div>
+    <p class="fallback">Se il PDF non appare, <a href="CVPecilliAlessio.pdf">aprilo direttamente</a>.</p>
+  </main>
+</body>
+</html>
