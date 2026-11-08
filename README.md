@@ -5,7 +5,7 @@ Il CV e' scritto in LaTeX. La versione pronta per la consultazione e' [CVPecilli
 ## Modifiche
 
 - La descrizione personale si trova in `src/personal-description.tex`. Sostituisci il testo segnaposto con una presentazione di 2-3 righe.
-- La foto e' facoltativa. Per inserirla, aggiungi nella cartella principale un'immagine chiamata `foto.jpg` e ricompila. Senza l'immagine compare uno spazio dedicato nell'intestazione.
+- La foto usata nell'intestazione e' `foto-alessio-pecilli.jpg`. Per cambiarla, sostituisci il file e ricompila il PDF.
 - Dopo ogni modifica, verifica che il PDF resti su una pagina.
 
 Per ricompilare con MiKTeX:
